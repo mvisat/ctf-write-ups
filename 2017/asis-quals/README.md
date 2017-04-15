@@ -7,5 +7,8 @@ https://ctftime.org/event/364
 - [Unbreakable](unbreakable/)
 - [Ransomware](ransomware/)
 
+## Web
+- [Secured Portal](secured-portal/)
+
 ## Crypto
 - [A Fine OTP Server](a-fine-otp-server/)
