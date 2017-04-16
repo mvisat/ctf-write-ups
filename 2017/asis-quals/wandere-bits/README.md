@@ -102,7 +102,7 @@ Jika kita perhatikan, hasil transformasi pada karakter terakhir parameter nilain
 Dengan begitu, kita dapat membuat *mapping* untuk untuk melakukan transformasi balik heksadesimal ke karakter aslinya. Kita masukkan karakter yang mungkin ada dalam flag sebagai parameter (dan ditambah karakter *dummy*, karena karakter terakhir nilainya akan ditambah 1).
 
 ```shell
-gdb-peda$ r {}_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+gdb-peda$ r {}_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789a
 0000| 0x7fffffffd850 --> 0x61c5d0 ("b7beaf929193989a999b949695979c9e9d9fb0b2b1b3b8bab9bbb4b6b5828183888a898b848685878c8e8d8fa0a2a1a3a8aaa9aba4a6a530323133383a393b343693")
 ```
 
